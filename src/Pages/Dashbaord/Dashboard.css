@@ -1,0 +1,18 @@
+.chartBarDashBoard {
+    .ant-space-item {
+        width: 47rem;
+        background-color: brown;
+
+        .ant-card {
+            width: 746px;
+            height: 360px;
+
+        }
+    }
+}
+canvas:nth-child(2) {
+    width: 550px;
+    margin-top: 50px;
+    margin: auto;
+    height: 10rem;
+}

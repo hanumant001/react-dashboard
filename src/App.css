@@ -1,0 +1,47 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+}
+.AppFooter{
+height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+.SideMenuAndPageContent{
+    display: flex;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05) ;
+}
+.SideMenu{
+    height: 100%;
+    
+    .ant-menu {
+        background-color: #c7d2fe;
+    }
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.PageContent{
+    padding-left: 12px;
+    width: 90%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
